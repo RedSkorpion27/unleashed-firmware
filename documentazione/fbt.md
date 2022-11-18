@@ -19,6 +19,7 @@ Please install Python packages required by assets build scripts: `pip3 install -
 
 To build with FBT, call it specifying configuration options & targets to build. For example,
 
+`CUSTOM_FLIPPER_NAME=Gengar ./fbt COMPACT=1 DEBUG=0 updater_package`
 `./fbt COMPACT=1 DEBUG=0 VERBOSE=1 updater_package copro_dist`
 
 To run cleanup (think of `make clean`) for specified targets, add `-c` option.
